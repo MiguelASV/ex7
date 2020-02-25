@@ -1,12 +1,12 @@
 {
     "version": 3,
-    "mappings": "AAAA;;;;;;;;;;;;EAYE;ACZF,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC;;AAED,AAAA,MAAM,CAAC,YAAY,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,IAAI;CAChB",
+    "mappings": "AAAA;;;;;;;;;;;;EAYE;AEZF,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,wBAAwB;CACxC;;AAED,AAAA,MAAM,CAAC,YAAY,AAAA,OAAO,CAAC;EACvB,OAAO,EAAE,IAAI;CAChB;;ACND,AAAA,OAAO,CAAC;EFCJ,UAAU,EAAE,2EAKX;CEJJ",
     "sources": [
         "scss/style.scss",
+        "scss/_mixin.scss",
         "scss/_entete.scss",
         "scss/_gutenberg.scss",
-        "scss/_footer.scss",
-        "scss/_mixin.scss"
+        "scss/_footer.scss"
     ],
     "names": [],
     "file": "style.css"
