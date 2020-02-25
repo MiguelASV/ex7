@@ -18,9 +18,4 @@ body {
 .entry .entry-title:before {
   display: none;
 }
-
-.rayure {
-  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
-}
-
-
+/*# sourceMappingURL=style.css.map */
