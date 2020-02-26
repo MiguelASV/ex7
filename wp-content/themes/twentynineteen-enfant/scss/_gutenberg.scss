@@ -1,6 +1,10 @@
 .site {
     background-color: lightcoral;
 }
+
+.site-footer {
+    background-color: lightskyblue;
+}
 .rayure {
     @include rayureNoel;
 }
