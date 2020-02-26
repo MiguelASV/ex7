@@ -2,12 +2,12 @@
     @include rayureNoel;
 }
 
-.animbloc1:hover {
-    animation: anim1 1s;
+.animbloc1 {
+    animation: anim1 1s infinite;
 }
 
 .animbloc2 {
-
+    animation: anim2 2s infinite;
 }
 
 @keyframes anim1 {
@@ -18,6 +18,18 @@
     transform: translate(200px);
    }
    to {
-    transform: translate(100px);
+    transform: translate(0);
    }
 }
+
+@keyframes anim2 {
+    from {
+     transform: skewX(0);
+    }
+    50%{
+     transform: skewX(90deg)
+    }
+    to {
+     transform: skewX(0)
+    }
+ }

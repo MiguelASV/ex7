@@ -23,9 +23,14 @@ body {
   background: repeating-linear-gradient(45deg, red, red 20px, #00501f 20px, #00501f 40px);
 }
 
-.animbloc1:hover {
-  -webkit-animation: anim1 1s;
-          animation: anim1 1s;
+.animbloc1 {
+  -webkit-animation: anim1 1s infinite;
+          animation: anim1 1s infinite;
+}
+
+.animbloc2 {
+  -webkit-animation: anim2 2s infinite;
+          animation: anim2 2s infinite;
 }
 
 @-webkit-keyframes anim1 {
@@ -38,8 +43,8 @@ body {
             transform: translate(200px);
   }
   to {
-    -webkit-transform: translate(100px);
-            transform: translate(100px);
+    -webkit-transform: translate(0);
+            transform: translate(0);
   }
 }
 
@@ -53,8 +58,38 @@ body {
             transform: translate(200px);
   }
   to {
-    -webkit-transform: translate(100px);
-            transform: translate(100px);
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@-webkit-keyframes anim2 {
+  from {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+  50% {
+    -webkit-transform: skewX(90deg);
+            transform: skewX(90deg);
+  }
+  to {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+}
+
+@keyframes anim2 {
+  from {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
+  }
+  50% {
+    -webkit-transform: skewX(90deg);
+            transform: skewX(90deg);
+  }
+  to {
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
   }
 }
 /*# sourceMappingURL=style.css.map */
