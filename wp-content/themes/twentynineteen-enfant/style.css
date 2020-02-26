@@ -22,4 +22,39 @@ body {
 .rayure {
   background: repeating-linear-gradient(45deg, red, red 20px, #00501f 20px, #00501f 40px);
 }
+
+.animbloc1:hover {
+  -webkit-animation: anim1 1s;
+          animation: anim1 1s;
+}
+
+@-webkit-keyframes anim1 {
+  from {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(200px);
+            transform: translate(200px);
+  }
+  to {
+    -webkit-transform: translate(100px);
+            transform: translate(100px);
+  }
+}
+
+@keyframes anim1 {
+  from {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(200px);
+            transform: translate(200px);
+  }
+  to {
+    -webkit-transform: translate(100px);
+            transform: translate(100px);
+  }
+}
 /*# sourceMappingURL=style.css.map */

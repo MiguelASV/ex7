@@ -1,3 +1,23 @@
 .rayure {
     @include rayureNoel;
 }
+
+.animbloc1:hover {
+    animation: anim1 1s;
+}
+
+.animbloc2 {
+
+}
+
+@keyframes anim1 {
+   from {
+    transform: translate(0px);
+   }
+   50%{
+    transform: translate(200px);
+   }
+   to {
+    transform: translate(100px);
+   }
+}
