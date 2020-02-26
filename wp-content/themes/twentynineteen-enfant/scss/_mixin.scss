@@ -1,8 +1,4 @@
 @mixin rayureNoel {
-    background: repeating-linear-gradient(45deg,
-      rgb(255, 0, 0),
-      rgb(255, 0, 0) 20px, 
-      rgb(0, 80, 31) 20px, 
-      rgb(0, 80, 31) 40px
-    );
-  }  
+    background: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
+  }
+  

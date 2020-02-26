@@ -20,7 +20,7 @@ body {
 }
 
 .rayure {
-  background: repeating-linear-gradient(45deg, red, red 20px, #00501f 20px, #00501f 40px);
+  background: repeating-linear-gradient(-45deg, #ddd, #ddd 20px, #eee 20px, #eee 40px);
 }
 
 .animbloc1 {
